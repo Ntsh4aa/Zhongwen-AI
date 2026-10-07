@@ -1,0 +1,67 @@
+# Jenis Proyek
+ 
+Lin Mandarin Studio adalah aplikasi pembelajaran kosakata Bahasa Mandarin berbasis Flask. Aplikasi ini memungkinkan pengguna mencari kosakata menggunakan Hanzi, Pinyin, Bahasa Indonesia, atau Bahasa Inggris. Selain itu, aplikasi menyediakan fitur penyimpanan kosakata favorit, riwayat pencarian, flashcard, latihan kuis pilihan ganda, dan pembuatan daftar kosakata berdasarkan topik menggunakan Ollama AI dengan fallback ke kamus lokal apabila layanan AI tidak tersedia.
+ 
+## Pustaka yang Akan Digunakan
+ 
+- Flask
+- Flask SQLAlchemy
+- python-dotenv
+- SQLite
+- Ollama API
+- urllib
+- json
+- os
+- random
+- re
+- unicodedata
+- secrets
+ 
+## Referensi yang Berguna
+ 
+- Dokumentasi Flask
+- Dokumentasi SQLAlchemy
+- Dokumentasi python-dotenv
+- Dokumentasi Ollama API
+- Dokumentasi SQLite
+- Dokumentasi Python Standard Library
+ 
+## Artikel Panduan Pengembangan
+ 
+### Flask Documentation
+Panduan utama untuk membuat aplikasi web menggunakan framework Flask, termasuk routing, template, request handling, dan deployment.
+ 
+https://flask.palletsprojects.com/
+ 
+### SQLAlchemy Documentation
+Referensi ORM yang digunakan untuk mengelola database dan model data aplikasi.
+ 
+https://docs.sqlalchemy.org/
+ 
+### python-dotenv Documentation
+Panduan penggunaan file `.env` untuk menyimpan konfigurasi aplikasi secara aman.
+ 
+https://pypi.org/project/python-dotenv/
+ 
+### Ollama API Documentation
+Referensi integrasi model AI untuk menghasilkan daftar kosakata berdasarkan topik tertentu.
+ 
+https://ollama.com/docs
+ 
+### SQLite Documentation
+Panduan database SQLite yang digunakan sebagai penyimpanan lokal aplikasi.
+ 
+https://www.sqlite.org/docs.html
+ 
+## Fitur Utama
+ 
+- Pencarian kosakata Mandarin
+- Pencarian Hanzi, Pinyin, Indonesia, dan Inggris
+- Penyimpanan kosakata favorit
+- Riwayat pencarian pengguna
+- Flashcard pembelajaran
+- Kuis pilihan ganda
+- Statistik akurasi belajar
+- Generasi kosakata berdasarkan topik menggunakan AI
+- Fallback ke kamus lokal saat AI tidak tersedia
+- Perlindungan CSRF dan security headers
